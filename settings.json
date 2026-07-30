@@ -34,7 +34,7 @@
         "hellu!"
       ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
@@ -42,17 +42,17 @@
   "movement": {
     "enabled": false,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
-      "speed": 3000
+      "speed": 900000
     },
     "look-around": {
-      "enabled": false,
-      "interval": 5000
+      "enabled": true,
+      "interval": 500000
     },
     "random-jump": {
-      "enabled": false,
-      "interval": 10000
+      "enabled": true,
+      "interval": 600000
     }
   },
   "modules": {
@@ -80,6 +80,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
