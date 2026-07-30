@@ -8,7 +8,7 @@
   "server": {
     "ip": "skibiditoystationprenium.playserver.pro",
     "port": 12921,
-    "version": "",
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
