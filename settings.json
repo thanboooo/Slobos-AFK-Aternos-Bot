@@ -8,14 +8,14 @@
   "server": {
     "ip": "skibiditoystationprenium.playserver.pro",
     "port": 12921,
-    "version": "1.21.1",
+    "version": "1.21.8",
     "try-creative": false
   },
   "position": {
     "enabled": false,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "x": -610,
+    "y": 179,
+    "z": 2554
   },
   "utils": {
     "auto-auth": {
@@ -23,8 +23,8 @@
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
     "chat-messages": {
       "enabled": true,
@@ -40,7 +40,7 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -64,7 +64,7 @@
   },
   "combat": {
     "attack-mobs": false,
-    "auto-eat": false
+    "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
