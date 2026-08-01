@@ -12,7 +12,7 @@
     "try-creative": false
   },
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": -610,
     "y": 179,
     "z": 2554
@@ -44,21 +44,21 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 900000
+      "speed": 120000
     },
     "look-around": {
       "enabled": true,
-      "interval": 500000
+      "interval": 60000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 600000
+      "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": false,
     "combat": false,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
