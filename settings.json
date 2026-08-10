@@ -71,8 +71,8 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/channels/1522255866726977797/1523285171661574205",
     "events": {
       "connect": true,
       "disconnect": true,
